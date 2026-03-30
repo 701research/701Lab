@@ -29,7 +29,7 @@ This document summarizes the current hardware setup used in 701Lab.
 | OS Storage |  | KIOXIA | 64 GB | 1 |
 | Data Logging USB |  | ELECOM | MF-SU2C64GBK | 1 |
 | Simple Microphone |  | ELECOM | HS-MC09UBK | 2 |
-| GPS Antenna + Board | For K1600GT antenna | Waveshare Electronics | GNSS Module HAT for Raspberry Pi | 2 |
+| GPS Antenna + Board | For K1600GT antenna | Waveshare Electronics | GNSS Module HAT for Raspberry Pi | 1 |
 | GPS Antenna | For R18 | illumicraft | B07DYD77RS (SMA, 3 m) | 1 |
 | IMU |  | WITMOTION | BWT901CL MPU9250 | 2 |
 | Temperature Sensor |  | LIKENNY | DS18B20 Temperature Sensor (5-pack) | 1 |
