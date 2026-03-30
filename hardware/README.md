@@ -9,4 +9,8 @@ The current setup is organized around the following functional groups:
 - data acquisition system
 - audio recording system
 
-Detailed hardware inventory and configuration notes are provided in the documents in this directory.
+This directory also includes the Raspberry Pi sensor node wiring diagram used in the current setup:
+
+- [RasPi_Sensor_Wiring_Diagram.pdf](./RasPi_Sensor_Wiring_Diagram.pdf)
+
+Detailed hardware inventory, wiring references, and configuration notes are provided in the documents in this directory.
