@@ -91,6 +91,16 @@ The initial focus is on:
 
 ---
 
+## Disclaimer
+
+This repository is intended to support understanding, reuse, and further development of the 701Lab workflow.
+
+However, it is not provided as a fully packaged product, and operation is not guaranteed in all environments.
+
+Depending on hardware configuration, software versions, and local settings, modification and adjustment may be required.
+
+---
+
 ## Design Policy
 
 701Lab is being organized as a reusable technical base rather than a private working directory.
