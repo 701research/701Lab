@@ -273,17 +273,32 @@ This structure is intended to separate raw logs, metadata, derived data, quality
 
 ### LED Status Design
 
-| State | LED behavior | Meaning |
-|---|---|---|
-| Power off | Off | No power |
-| Booting | Fast blink (0.2 s) | Initializing |
-| Idle | Off | Waiting to start |
-| Waiting for GPS fix | Slow blink (1.0 s) | Synchronization in progress |
-| Measuring | Solid on | Recording |
-| Stopping | Medium blink (0.5 s) | Finalizing files |
-| USB not detected | Two blinks, pause | Physical error |
-| Temperature abnormal | Three blinks, pause | Sensor abnormality |
-| Fatal error | Continuous fast blink | Immediate attention required |
+| State | LED mode | Visual appearance | Meaning |
+|---|---|---|---|
+| BOOTING | `slow_blink` | Slow blinking | Booting |
+| STORAGE_MISSING | `error` | Two blinks, then pause | Storage destination missing (fatal) |
+| IDLE_NO_GPS | `blink` | Regular blinking | Idle, searching for GPS |
+| IDLE_GPS_OK | `breathe + wink` | Breathing fade with a brief wink-off | Idle, GPS acquired |
+| MEASURING | `on` | Solid on | Measuring |
+| STOPPING | `fast_blink` | Fast blinking | Stopping / finalizing |
+
+### LED Design Notes
+
+The current LED design was revised to improve quick state recognition in real operation, especially outdoors, while riding, and when wearing gloves.
+
+Key design points:
+- Do not use complete darkness as the normal healthy state
+- Make idle states visibly alive
+- Distinguish states by motion quality rather than by color or additional hardware
+
+The adopted expression for `IDLE_GPS_OK` is **breathe + wink**:
+- **breathe**: a smooth PWM-based fade representing calm, ready standby
+- **wink**: a brief OFF event inserted near the brightness peak to create a clear visual difference from the steady ON state used for `MEASURING`
+
+Adopted operational parameter:
+- `wink_off_sec = 0.1`
+
+This revision affects LED presentation only. It does **not** change the state machine, event handling, transition logic, logger reliability, or log structure.
 
 ### Switch Operation Design
 
