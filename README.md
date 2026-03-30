@@ -43,22 +43,22 @@ This repository is intended to provide a structured public foundation for the pa
 
 ## Directory Roles
 
-- **docs/**  
+- **[docs/](./docs/)**  
   Project documentation, architecture notes, workflow explanations, and usage guides.
 
-- **hardware/**  
+- **[hardware/](./hardware/)**  
   Hardware configuration, device roles, wiring information, and component notes.
 
-- **setup/**  
+- **[setup/](./setup/)**  
   Environment setup procedures for Raspberry Pi, Windows, and related dependencies.
 
-- **acquisition/**  
+- **[acquisition/](./acquisition/)**  
   Programs and resources for sensor data acquisition, logging, and data collection.
 
-- **analysis/**  
+- **[analysis/](./analysis/)**  
   Scripts and tools for preprocessing, synchronization, parsing, and analysis of collected data.
 
-- **visualization/**  
+- **[visualization/](./visualization/)**  
   Tools for data visualization, HUD rendering, and related output generation.
 
 ---
