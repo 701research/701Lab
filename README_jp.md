@@ -42,22 +42,22 @@
 
 ## Directory Roles
 
-- **docs/**  
+- **[docs/](./docs/)**  
   プロジェクト文書、アーキテクチャメモ、ワークフロー説明、利用ガイドを格納します。
 
-- **hardware/**  
+- **[hardware/](./hardware/)**  
   ハードウェア構成、各機器の役割、配線情報、部品メモを格納します。
 
-- **setup/**  
+- **[setup/](./setup/)**  
   Raspberry Pi、Windows、および関連依存環境のセットアップ手順を格納します。
 
-- **acquisition/**  
+- **[acquisition/](./acquisition/)** 
   センサーデータ取得、ログ記録、データ収集のためのプログラムや関連資材を格納します。
 
-- **analysis/**  
+- **[analysis/](./analysis/)**   
   収集データの前処理、同期、パース、解析のためのスクリプトやツールを格納します。
 
-- **visualization/**  
+- **[visualization/](./visualization/)**  
   データ可視化、HUD 描画、および関連する出力生成ツールを格納します。
 
 ---
