@@ -93,11 +93,13 @@ The initial focus is on:
 
 ## Disclaimer
 
-This repository is intended to support understanding, reuse, and further development of the 701Lab workflow.
+This repository is shared as an open technical foundation for understanding, reuse, and further development of the 701Lab workflow.
 
-However, it is not provided as a fully packaged product, and operation is not guaranteed in all environments.
+It is not intended as a finished product or a fully packaged distribution. Depending on hardware configuration, software versions, local settings, and execution environment, some parts may require modification and adjustment.
 
-Depending on hardware configuration, software versions, and local settings, modification and adjustment may be required.
+Please use the contents of this repository as a practical reference and adapt them carefully to your own setup and goals.
+
+For the formal license terms, please refer to the [LICENSE](./LICENSE) file.
 
 ---
 
