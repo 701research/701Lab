@@ -1,6 +1,6 @@
 # 701Lab
 
-701Lab is an open technical foundation for motorcycle ride sensing, data logging, analysis, and visualization.
+701Lab is an open technical foundation for motorcycle ride sensing, multi-sensor data logging, analysis, and visualization.
 
 This repository organizes the hardware configuration, setup procedures, acquisition programs, analysis tools, and visualization pipeline developed in the 701Lab project into a form that can be understood, reused, and extended by others.
 
@@ -16,16 +16,42 @@ The goal of this repository is not merely to store files, but to make the techni
 
 701Lab has been developed around the following workflow:
 
-1. Building a measurement node based on Raspberry Pi  
-2. Acquiring and integrating sensor data into unified logs  
-3. Running analysis and preprocessing on the Windows side  
-4. Generating visual outputs, including HUD-based visualization
+1. Building a Raspberry Pi–based measurement node  
+2. Acquiring and integrating multi-sensor data into unified run-based logs  
+3. Running lightweight post-run processing on the Raspberry Pi side  
+4. Running cross-run and sensor-level analysis on the Windows side  
+5. Generating visual outputs, including HUD-based visualization
 
 This repository is intended to provide a structured public foundation for the parts of that workflow that can be shared openly.
 
 ---
 
+## Relationship to the 701research YouTube channel
+
+701Lab is also connected to the practical production workflow behind the 701research YouTube channel.
+
+The sensing, logging, analysis, and visualization system documented in this repository has already been used in the production of published videos on that channel.
+
+This means that the repository reflects not only an internal technical structure, but also a working pipeline that has been used for actual public-facing output.
+
+---
+
+## Who this repository may be useful for
+
+This repository may be useful for people who are interested in:
+
+- building a Raspberry Pi–based measurement or logging system,
+- organizing multi-sensor acquisition workflows,
+- designing run-based data structures for later analysis,
+- separating lightweight edge-side processing from richer host-side analysis,
+- or studying how an experimental sensing project can be structured as a reusable technical base.
+
+It may also be helpful as a practical reference for students, researchers, and developers working on sensing, logging, or experimental data pipelines.
+
+---
+
 ## Repository Structure
+
 ```text
 701Lab/
 ├─ README.md
@@ -82,12 +108,13 @@ Environment-specific files, private data, local paths, credentials, and other no
 
 This repository is currently in the process of being organized for public release.
 
-The initial focus is on:
+The current focus is on:
 
 - designing a clear repository structure,
 - separating public and non-public resources,
 - improving code and file naming consistency,
-- and preparing documentation for external readers.
+- preparing documentation for external readers,
+- and refining the repository into a reusable technical base rather than a private working directory.
 
 ---
 
@@ -131,4 +158,3 @@ Planned improvements include:
 ## License
 
 This project is released under the Apache License 2.0.
-
