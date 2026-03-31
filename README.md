@@ -26,9 +26,9 @@ This repository is intended to provide a structured public foundation for the pa
 
 ---
 
-## Relationship to the 701research YouTube channel
+## Relationship to the [701research YouTube channel](https://www.youtube.com/@701research)
 
-701Lab is also connected to the practical production workflow behind the 701research YouTube channel.
+701Lab is also connected to the practical production workflow behind the [701research YouTube channel](https://www.youtube.com/@701research).
 
 The sensing, logging, analysis, and visualization system documented in this repository has already been used in the production of published videos on that channel.
 
