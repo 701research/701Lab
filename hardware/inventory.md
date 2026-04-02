@@ -40,5 +40,5 @@ This document summarizes the current hardware setup used in 701Lab.
 
 | Subcategory | Detail | Manufacturer | Product / Model | Qty |
 |---|---|---|---|---:|
-| Main Unit / Recorder | Microphone for K1600GT | ZOOM | ZOOM F2-BT (used)  | 1 |
+| Lavalier Microphone / Recorder | Microphone for K1600GT | ZOOM | ZOOM F2-BT (used)  | 1 |
 | Lavalier Microphone | For R18 | ZOOM | LMF-2 | 1 |
