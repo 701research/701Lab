@@ -18,28 +18,6 @@ It is the layer where structured ride data starts to be translated into expressi
 
 ---
 
-## Position of B3 in the Windows-side workflow
-
-The Windows-side workflow is currently organized as:
-
-- **[b1/](../b1/)**  
-  Cross-run lightweight preparation and screening
-
-- **[b2/](../b2/)**  
-  Sensor-level extraction, statistics, visualization, and quality evaluation
-
-- **[b3/](./)**  
-  Composition and translation layer
-
-The role of B3 is to take already prepared and structured run data from earlier stages and reorganize it into forms suitable for higher-level interpretation and downstream expressive use.
-
-At the current stage, B3 is designed around the idea that ride data should not simply be sonified directly.  
-Instead, the ride is first segmented, summarized, translated into a small number of control axes, and only then connected to project-specific composition logic.
-
-This makes B3 a structured translation layer rather than a direct audio rendering layer.
-
----
-
 ## Current workflow inside B3
 
 The current B3 pipeline can be summarized as follows:
